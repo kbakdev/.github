@@ -1,0 +1,16 @@
+name: 'My Custom Action'
+description: 'A brief description of what your action does'
+inputs:
+  exampleInput:
+    description: 'An example input parameter'
+    required: true
+    default: 'default value'
+outputs:
+  exampleOutput:
+    description: 'An example output parameter'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'check-circle'
+  color: 'blue'
